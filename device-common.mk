@@ -101,3 +101,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.camera.notify_nfc=1
 
 PRODUCT_CHECK_ELF_FILES := true
+
+# Google Device
+PRODUCT_PACKAGES += \
+    SystemUIGoogle
