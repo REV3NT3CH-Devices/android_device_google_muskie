@@ -105,3 +105,8 @@ PRODUCT_CHECK_ELF_FILES := true
 # Google Device
 PRODUCT_PACKAGES += \
     SystemUIGoogle
+
+# Doze
+PRODUCT_PACKAGES += \
+    CustomDoze
+
