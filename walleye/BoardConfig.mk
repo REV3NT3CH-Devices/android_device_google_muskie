@@ -40,3 +40,11 @@ TARGET_RECOVERY_UI_LIB := \
     librecovery_ui_walleye \
     libbootloader_message \
     libfstab
+
+# GAPPS
+TARGET_GAPPS_OVERRIDE += \
+    Eleven \
+    Jelly \
+    PrebuiltGmail \
+    Snap
+
