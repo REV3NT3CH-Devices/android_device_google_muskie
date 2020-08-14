@@ -42,3 +42,11 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Thermal HAL
 PRODUCT_COPY_FILES += \
     device/google/muskie/thermal_info_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json
+
+# Permission HACKERY
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.control_privapp_permissions=log \
+    ro.adb.secure=0 \
+    persist.sys.usb.config=mtp,adb \
+    persist.service.debuggable=1 \
+    persist.service.adb.enable=1
