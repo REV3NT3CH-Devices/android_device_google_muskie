@@ -46,5 +46,6 @@ TARGET_GAPPS_OVERRIDE += \
     Eleven \
     Jelly \
     PrebuiltGmail \
+    Photos \
     Snap
 
